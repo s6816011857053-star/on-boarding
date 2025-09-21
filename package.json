@@ -1,11 +1,14 @@
 {
-  "name": "nextjs",
-  "version": "0.1.0",
+  "name": "onboarding-system",
+  "version": "1.0.0",
+  "description": "ระบบจัดการการปฐมนิเทศพนักงานใหม่",
   "private": true,
   "scripts": {
     "dev": "next dev --turbopack",
     "build": "next build --turbopack",
-    "start": "next start"
+    "start": "next start",
+    "lint": "next lint",
+    "type-check": "tsc --noEmit"
   },
   "dependencies": {
     "react": "19.1.0",
@@ -19,5 +22,16 @@
     "@types/react-dom": "^19",
     "@tailwindcss/postcss": "^4",
     "tailwindcss": "^4"
-  }
+  },
+  "keywords": [
+    "onboarding",
+    "employee-management",
+    "training",
+    "evaluation",
+    "nextjs",
+    "react",
+    "typescript"
+  ],
+  "author": "On-Boarding Team",
+  "license": "MIT"
 }

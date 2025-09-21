@@ -1,12 +1,12 @@
 'use client';
 
 import React, { useState, useEffect } from 'react';
-import { useAuth } from '../../lib/auth-context';
-import { Button } from '../../components/ui/Button';
-import { Card } from '../../components/ui/Card';
-import { Input } from '../../components/ui/Input';
-import { mockEmployees, getTrainingModulesByPosition, getEmployeeTrainingProgress, mockEvaluations } from '../../lib/mock-data';
-import { Employee, TrainingModule, EmployeeTraining, Evaluation } from '../../lib/types';
+import { useAuth } from '../../../lib/auth-context';
+import { Button } from '../../../components/ui/Button';
+import { Card } from '../../../components/ui/Card';
+import { Input } from '../../../components/ui/Input';
+import { mockEmployees, getTrainingModulesByPosition, getEmployeeTrainingProgress, mockEvaluations } from '../../../lib/mock-data';
+import { Employee, TrainingModule, EmployeeTraining, Evaluation } from '../../../lib/types';
 
 export default function ManagerDashboard() {
   const { user, logout } = useAuth();

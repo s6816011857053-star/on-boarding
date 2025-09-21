@@ -1,11 +1,11 @@
 'use client';
 
 import React, { useState, useEffect } from 'react';
-import { useAuth } from '../../lib/auth-context';
-import { Button } from '../../components/ui/Button';
-import { Card } from '../../components/ui/Card';
-import { mockEmployees, mockEvaluations, getTrainingModulesByPosition, calculateTrainingProgress } from '../../lib/mock-data';
-import { Employee, Evaluation } from '../../lib/types';
+import { useAuth } from '../../../lib/auth-context';
+import { Button } from '../../../components/ui/Button';
+import { Card } from '../../../components/ui/Card';
+import { mockEmployees, mockEvaluations, getTrainingModulesByPosition, calculateTrainingProgress } from '../../../lib/mock-data';
+import { Employee, Evaluation } from '../../../lib/types';
 
 export default function ReportsPage() {
   const { user, logout } = useAuth();

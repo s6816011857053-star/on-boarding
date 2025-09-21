@@ -1,11 +1,11 @@
 'use client';
 
 import React, { useState, useEffect } from 'react';
-import { useAuth } from '../../lib/auth-context';
-import { Button } from '../../components/ui/Button';
-import { Card } from '../../components/ui/Card';
-import { getEmployeeById, getTrainingModulesByPosition, getEmployeeTrainingProgress, calculateTrainingProgress } from '../../lib/mock-data';
-import { Employee, TrainingModule, EmployeeTraining } from '../../lib/types';
+import { useAuth } from '../../../lib/auth-context';
+import { Button } from '../../../components/ui/Button';
+import { Card } from '../../../components/ui/Card';
+import { getEmployeeById, getTrainingModulesByPosition, getEmployeeTrainingProgress, calculateTrainingProgress } from '../../../lib/mock-data';
+import { Employee, TrainingModule, EmployeeTraining } from '../../../lib/types';
 
 export default function EmployeeDashboard() {
   const { user, logout } = useAuth();

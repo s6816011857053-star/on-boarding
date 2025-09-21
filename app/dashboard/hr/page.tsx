@@ -1,12 +1,12 @@
 'use client';
 
 import React, { useState } from 'react';
-import { useAuth } from '../../lib/auth-context';
-import { Button } from '../../components/ui/Button';
-import { Input } from '../../components/ui/Input';
-import { Card } from '../../components/ui/Card';
-import { mockEmployees, DEPARTMENTS, BRANCHES, POSITIONS } from '../../lib/mock-data';
-import { Employee } from '../../lib/types';
+import { useAuth } from '../../../lib/auth-context';
+import { Button } from '../../../components/ui/Button';
+import { Input } from '../../../components/ui/Input';
+import { Card } from '../../../components/ui/Card';
+import { mockEmployees, DEPARTMENTS, BRANCHES, POSITIONS } from '../../../lib/mock-data';
+import { Employee } from '../../../lib/types';
 
 export default function HRDashboard() {
   const { user, logout } = useAuth();

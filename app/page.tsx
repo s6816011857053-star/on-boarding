@@ -126,7 +126,7 @@ export default function Home() {
           </div>
           <p className="text-gray-400">ระบบจัดการการปฐมนิเทศพนักงานใหม่</p>
         </div>
-      </div>
+        </div>
     </div>
   );
 }

@@ -1,5 +1,5 @@
 // Mock data สำหรับระบบ On-Boarding
-import { Employee, User, EmployeeTraining, Evaluation, POSITIONS } from './types';
+import { Employee, User, EmployeeTraining, Evaluation, POSITIONS, DEPARTMENTS, BRANCHES } from './types';
 
 // Mock Users
 export const mockUsers: User[] = [
@@ -220,5 +220,8 @@ export const calculateTrainingProgress = (employeeId: string) => {
     status
   };
 };
+
+// Re-export constants from types
+export { POSITIONS, DEPARTMENTS, BRANCHES };
 
 
